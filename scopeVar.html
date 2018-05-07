@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>function access var</title>
+</head>
+<body>
+<p>A function can access variabale defined inside the function</p>
+<button type = "button" onclick= "myfunction() ">Click me</button>
+
+<p id= "demo"> </p>
+<sript>
+var a = 4;
+function myfunction(){
+document.getElementById("demo").innerHTML= a * a ;
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>class selector</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $(".test").hide();
+                });
+            });
+        </script>
+</head>
+<body>
+<h2 class="test">Here is the test for class selector</h2>
+
+<p class="test">This is another test.</p>
+<p>This is another paragraph.</p>
+
+<button>Click me</button>
+</body>
+</html>

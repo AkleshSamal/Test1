@@ -1,0 +1,18 @@
+<HTML lang="eng">
+<head>
+<meta charset="UTF-8">
+<title>Js global var</title>
+</head>
+<body>
+<p> A Global variable can be accessed from any script or function.</p>
+<p id="demo"></p>
+<Script>
+var CarName = "Volvo";
+myFunction();
+function myFunction(){
+//var CarName = "Volvo";
+document.getElementById("demo").innerHTML = "I can display" + CarName ;
+}
+</Script>
+</body>
+</HTML>
